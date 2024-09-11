@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "lib": [
+      "ES2015",
+      "dom"
+    ],
+    "moduleResolution": "NodeNext",
+    "outDir": "build"
+  },
+  "include": [
+    "index.ts",
+    "package/**/*.ts"
+  ],
+  "exclude": ["node_modules"]
+}
