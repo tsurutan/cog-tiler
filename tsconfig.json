@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "module": "NodeNext",
+    "module": "ESNext",
     "noImplicitAny": true,
     "removeComments": true,
     "preserveConstEnums": true,
@@ -9,8 +9,9 @@
       "ES2015",
       "dom"
     ],
-    "moduleResolution": "NodeNext",
-    "outDir": "build"
+    "moduleResolution": "bundler",
+    "outDir": "build",
+    "declaration": true
   },
   "include": [
     "index.ts",
