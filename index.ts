@@ -1,1 +1,1 @@
-export { fromFile } from "./package/cog-tiler";
+export { fromFile } from "./package/cog-tiler.js";

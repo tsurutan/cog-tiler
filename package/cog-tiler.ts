@@ -1,6 +1,6 @@
 import {createCanvas} from 'canvas';
 import GeoTIFF, { fromFile as readGeoTiffFromFile } from 'geotiff';
-import {tileToLat, tileToLng} from './utils';
+import {tileToLat, tileToLng} from './utils.js';
 
 class COGeoTiff {
     constructor(private readonly tiff: GeoTIFF, private readonly size: number = 256) {
