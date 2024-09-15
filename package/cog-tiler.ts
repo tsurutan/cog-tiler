@@ -17,6 +17,7 @@ class COGeoTiff {
             height: this.size,
             width: this.size,
             interleave: true,
+            samples: [0, 1, 2]
         })
         const canvas = createCanvas(this.size, this.size);
         const cxt = canvas.getContext("2d")

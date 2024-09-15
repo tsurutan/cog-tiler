@@ -1,6 +1,6 @@
 {
   "name": "cog-tiler",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "type": "module",
   "description": "This package reads Cloud Optimized GeoTIFFs from x, y, z tiles and returns PNG images.",
   "main": "build/index.js",
